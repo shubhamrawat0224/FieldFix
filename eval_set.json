@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What should the technician do if the site is unsafe and the customer refuses access?",
+    "required_facts": [
+      "stop work and contact dispatch",
+      "site is unsafe",
+      "customer refusal"
+    ]
+  },
+  {
+    "question": "When do we escalate a customer refusal or missing signature?",
+    "required_facts": [
+      "customer signature is required",
+      "missing signature",
+      "escalate to dispatch"
+    ]
+  },
+  {
+    "question": "What is the rule for a customer who refuses to sign the final work after repair?",
+    "required_facts": [
+      "customer signature is required",
+      "final verification",
+      "notify dispatch"
+    ]
+  },
+  {
+    "question": "How should a technician proceed when access is blocked?",
+    "required_facts": [
+      "verify the access method",
+      "locked gate",
+      "customer contact approval"
+    ]
+  },
+  {
+    "question": "Can the technician continue work if the site is unsafe?",
+    "required_facts": [
+      "must stop work",
+      "site is unsafe",
+      "contact dispatch"
+    ]
+  },
+  {
+    "question": "If a compressor fails and the customer will not provide a signature, what happens?",
+    "required_facts": [
+      "compressor is failed",
+      "customer will not provide a signature",
+      "escalate the paperwork and approval path"
+    ]
+  },
+  {
+    "question": "Is a repair covered by warranty automatically?",
+    "required_facts": [
+      "may not assume the job is covered by a warranty",
+      "contract status are confirmed",
+      "active service plan"
+    ]
+  },
+  {
+    "question": "What triggers an escalation for out-of-contract work?",
+    "required_facts": [
+      "out-of-contract repair",
+      "escalation is required",
+      "safety, operational, or billing boundaries"
+    ]
+  },
+  {
+    "question": "Which parts can a technician install?",
+    "required_facts": [
+      "approved for the model",
+      "approved for the service code",
+      "notify dispatch"
+    ]
+  },
+  {
+    "question": "What should the technician do when a required part is not in the vehicle inventory?",
+    "required_facts": [
+      "notify dispatch",
+      "document the reason",
+      "before using substitute or nonstandard materials"
+    ]
+  },
+  {
+    "question": "What does the company require if the customer refuses work or access?",
+    "required_facts": [
+      "refusal details",
+      "site conditions",
+      "follow-up obligations"
+    ]
+  },
+  {
+    "question": "What should a technician do for a gas odor or smoke on site?",
+    "required_facts": [
+      "active gas odor",
+      "smoke",
+      "stop work and escalate immediately"
+    ]
+  }
+]

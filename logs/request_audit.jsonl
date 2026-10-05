@@ -1,0 +1,2 @@
+{"correlation_id": "a5476e8f074c488a", "cost_usd": 3.61e-05, "event": "ingest_embedding_cost", "input_tokens": 1805, "model": "openai/text-embedding-3-small", "status": "ok", "ts": 1791179955.117651}
+{"collection_name": "fieldfix_corpus", "correlation_id": "a5476e8f074c488a", "duration_ms": 2896.11, "event": "ingest_records", "record_count": 40, "status": "ok", "ts": 1791179955.1179352}
