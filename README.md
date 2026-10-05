@@ -85,3 +85,24 @@ python3 ingest.py --strategy recursive --size 200
 ```
 
 This upserts the recursive chunks into Chroma in one batch and prints a few sample stored records.
+
+## Clean clone setup
+
+From a fresh clone of the repo:
+
+```bash
+cd FieldFix
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+pip install -r requirements.txt
+cp .env.example .env
+# then edit .env and add your OpenRouter API key
+python3 ingest.py --corpus-dir corpus --strategy recursive --size 200 --collection-name fieldfix_corpus
+python3 answer.py --question "What should a technician do if the site is unsafe and the customer refuses access?"
+```
+
+Important:
+- `.env` is required for the hosted LLM and embeddings to work.
+- The project expects an OpenRouter-compatible base URL and a model such as `openai/gpt-5-mini`.
+- Do not submit late work; late submissions follow the programme policy.

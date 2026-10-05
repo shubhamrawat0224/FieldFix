@@ -1,0 +1,4 @@
+chromadb==1.5.9
+pypdf>=5.0.0
+reportlab>=5.0.0
+requests>=2.31.0
